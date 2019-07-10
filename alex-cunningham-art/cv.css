@@ -1,0 +1,108 @@
+body {
+  background-color: #FFFFF0;
+    font-family: 'Playfair Display', serif;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 120px;
+  color: #22223B;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #22223B;
+}
+a:hover {
+  color: #FFFFF0;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration-color: #22223B;
+}
+.nav {
+  display: inline-block;
+  width: 81%;
+  position: fixed;
+  float: right;
+  background-color: #C9ADA7;
+  top: 0;
+  right: 0;
+}
+.news {
+  padding-right: 25px;
+}
+header p {
+  font-size: 30px;
+  margin: 1px;
+}
+header {
+  display: inline-block;
+  padding-left: 16px;
+}
+.visual-arts {
+  color: #C9ADA7;
+}
+.name {
+  color: #22223B;
+}
+.description {
+  color: #22223B;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 15px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  text-align:justify;
+  margin-left: 250px;
+  margin-right: 250px;
+  color: #22223B;
+}
+form {
+  margin-left: 370px;
+  color: #22223B;
+}
+.submit {
+  font: 'Playfair Display', serif;
+  color: #22223B;
+}
+.cv {
+  margin-left: 247px;
+  margin-right: 247px;
+  text-align: justify;
+  justify-content: center;
+  display: flex
+  color: #22223B;
+  background-color: #FFFFF0;
+  line-height: 25px;
+}
+.education {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.statement {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+  padding-bottom: 0px;
+}
+.exhibits {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.collections {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.awards {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.accomplishments {
+  padding-bottom: 100px;
+}

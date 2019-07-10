@@ -1,0 +1,96 @@
+body {
+  background-color: #FFDBF7;
+  font-family: 'Playfair Display', serif;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 120px;
+  color: #22223B;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #22223B;
+}
+a:hover nav {
+  color: #FFFFF0;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration-color: #22223B;
+}
+.nav {
+  display: inline-block;
+  width: 81%;
+  float: right;
+  top: 0;
+  right: 0;
+}
+.news {
+  padding-right: 25px;
+}
+header p {
+  font-size: 30px;
+  margin: 1px;
+}
+header {
+  display: inline-block;
+  padding-left: 16px;
+}
+.visual-arts {
+  color: #C9ADA7;
+}
+.name {
+  color: #22223B;
+}
+.description {
+  color: #22223B;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 15px;
+}
+.stories {
+  height: 425px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.exhibit {
+  margin-left: 18px;
+  width: 90%
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+.preview {
+  font-size: 14px;
+  margin-left: 9px;
+}
+.words {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: #22223B;
+}
+.stories2 {
+  height: 425px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 70px;
+}
+.bb {
+  margin-left: 50px;
+  width: 75%
+}
+section {
+  padding-bottom: 400px;
+}

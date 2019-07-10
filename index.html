@@ -2,9 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Alex Cunningham Visual Art</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
   </head>
   <body>
-    <h1>Alex Cunningham</h1>
-  </body>
-</html>
+    <div class="left">
+      <header>
+        <p class="name">ALEX</p>
+        <p class="name">CUNNINGHAM</p>
+        <p class="visual-arts">VISUAL ART</p>
+      </header>
+      <section>
+        <p>Alex Cunningham is a self-taught visual artist originally from Saint John, New Brunswick, and currently residing in Fredericton. While she attends school in philosophy, she has been painting and developing her skills over the past seven years.</p>
+        <p>Her work consistently takes the form of portraits, whether or people or of animals. By employing a traditional technique most commonly in acrylic and oils, and sometimes in watercolour or conté, the artist aims to best reflect the everyday connections we make with faces and explore portraits as a medium for storytelling.</p>
+      </section>
+    </div>
+    <div class="right">
+      <div class="wrapper">
+        <div class="w3-content w3-section">
+          <img class="mySlides" src="../Images/rsz_selling_lemonade.jpg">
+          <img class="mySlides" src="../Images/rsz_spotted-by-the-pool.jpg">
+          <img class="mySlides" src="../Images/he's-with-me.jpeg">
+          </div>
+
+          </div>
+          <div class="nav">
+            <a href="#" class="hamburger">&#8801;</a>
+            <ul>
+              <a href="#" class="close">&times;</a>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="cv.html">CV</a></li>
+              <li><a href="commissions.html">Commissions</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li class="news"><a href="news.html">News</a></li>
+            </ul>
+          </div>
+        </div>
+            <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 4000); // Change image every 4 seconds
+            }
+          </script>
+
+      </body>

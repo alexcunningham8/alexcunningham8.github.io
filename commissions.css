@@ -60,7 +60,7 @@ header {
   color: #22223B;
 }
 .photo {
-  background: url(Images/Capture.PNG);
+  background-image: url(Images/Capture.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;

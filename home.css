@@ -66,12 +66,12 @@ header {
 }
 .left {
   display: inline-block;
-  width: 35vw;
+  width: 35%;
   float: left;
 }
 .right {
   display: inline-block;
-  width: 65vw;
+  width: 65%;
   float: right;
   overflow: hidden;
 }

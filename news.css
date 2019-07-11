@@ -1,5 +1,5 @@
 body {
-  background-color: #FFDBF7;
+  background-color: #C9ADA7;
   font-family: 'Playfair Display', serif;
 }
 li {
@@ -40,7 +40,7 @@ header {
   padding-left: 16px;
 }
 .visual-arts {
-  color: #C9ADA7;
+  color: #FFFFF0;
 }
 .name {
   color: #22223B;
@@ -56,7 +56,7 @@ header {
 .stories {
   height: 425px;
   width: 400px;
-  background-color: white;
+  background-color: #FFFFF0;
   border-radius: 10px;
   display: inline-block;
   margin-left: 20px;
@@ -82,7 +82,7 @@ header {
 .stories2 {
   height: 425px;
   width: 400px;
-  background-color: white;
+  background-color: #FFFFF0;
   border-radius: 10px;
   display: inline-block;
   margin-left: 70px;
